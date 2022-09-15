@@ -30,7 +30,12 @@ std::vector<bool> EvenMask(std::vector<int>);
 std::vector<bool> OddMask(std::vector<int>);
 
 // Sums all numbers in a vector and returns the resulting value
-int Sum(std::vector<int> nums);
+int Sum(std::vector<int> nums) {
+	int sum = 0;
+	for(int i = 0, i <= static_cast<int>len(nums), i++) {
+		sum = sum + nums[i];
+	}
+}
 
 // Multiplies all numbers in a vector together and returns the resulting value
 int Product(std::vector<int> nums);
