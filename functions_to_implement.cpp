@@ -32,7 +32,7 @@ std::vector<bool> OddMask(std::vector<int>);
 // Sums all numbers in a vector and returns the resulting value
 int Sum(std::vector<int> nums) {
 	int sum = 0;
-	for(int i = 0; i <= nums.size(); i++) {
+	for(int i = 0; i <= static_cast<int>(nums.size()); i++) {
 		sum = sum + nums[i];
 	}
 	return sum;
