@@ -35,6 +35,7 @@ int Sum(std::vector<int> nums) {
 	for(int i = 0; i <= nums.size(); i++) {
 		sum = sum + nums[i];
 	}
+	return sum;
 }
 
 // Multiplies all numbers in a vector together and returns the resulting value
